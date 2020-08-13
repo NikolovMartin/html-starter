@@ -1,0 +1,49 @@
+// Headings
+
+h1 {
+	font-size: $font-size-h1;
+}
+
+h2 {
+	font-size: $font-size-h2;
+
+	@include mobile {
+		font-size: $font-size-h4 / 0.5;
+		line-height: 1.2;
+		margin-bottom: 1.5rem;
+	}
+}
+
+h3 {
+	font-size: $font-size-h3;
+}
+
+h4 {
+	font-size: $font-size-h4;
+	color: rgba($color-base, 0.5);
+	line-height: 1.2;
+}
+
+h5 {
+	font-size: $font-size-h5;
+}
+
+h6 {
+	font-size: $font-size-h6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-serif;
+	margin-top: 0;
+	font-weight: normal;
+
+	&[class],
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

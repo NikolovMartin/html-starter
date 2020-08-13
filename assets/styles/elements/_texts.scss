@@ -1,0 +1,15 @@
+// Texts
+
+p,
+ul,
+ol,
+dl,
+table,
+blockquote {
+	margin-top: 0;
+	font-weight: 300;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

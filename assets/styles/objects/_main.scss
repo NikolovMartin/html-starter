@@ -1,0 +1,9 @@
+// Main
+
+.o-main {
+	padding: 6.25rem 0 6.25rem;
+
+	@include mobile {
+		padding: 2rem 0;
+	}
+}
